@@ -6,7 +6,7 @@
     <Name>Hilton</Name>
     <Phone>480-555-5555</Phone>
     <Phone>602-555-5555</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
         <Number>123</Number>
         <Street>E 1st St</Street>
         <City>Tempe</City>
@@ -18,7 +18,7 @@
     <Hotel>
         <Name>Marriott</Name>
         <Phone>480-555-1234</Phone>
-        <Address NearestAirport="Scottsdale Airport">
+        <Address NearstAirport="Scottsdale Airport">
             <Number>123</Number>
             <Street>E 1st St</Street>
             <City>Tempe</City>
@@ -30,7 +30,7 @@
     <Hotel>
         <Name>Hyatt</Name>
         <Phone>480-555-6789</Phone>
-        <Address NearestAirport="Sky Harbor">
+        <Address NearstAirport="Sky Harbor">
             <Number>123</Number>
             <Street>E 1st St</Street>
             <City>Tempe</City>
@@ -42,7 +42,7 @@
     <Hotel Rating="4.4">
         <Name>Holiday Inn</Name>
         <Phone>480-555-4321</Phone>
-        <Address NearestAirport="Some Airport">
+        <Address NearstAirport="Some Airport">
             <Number>123</Number>
             <Street>E 1st St</Street>
             <City>Tempe</City>
@@ -55,7 +55,7 @@
         <Name>Best Western</Name>
         <Phone>480-555-8765</Phone>
         <Phone>602-555-1234</Phone>
-        <Address NearestAirport="Fictional Harbor">
+        <Address NearstAirport="Fictional Harbor">
             <Number>123</Number>
             <Street>E 1st St</Street>
             <City>Tempe</City>
@@ -67,7 +67,7 @@
     <Hotel>
         <Name>Comfort Inn</Name>
         <Phone>480-555-5678</Phone>
-        <Address NearestAirport="Sky Harbor">
+        <Address NearstAirport="Sky Harbor">
             <Number>123</Number>
             <Street>E 1st St</Street>
             <City>Tempe</City>
@@ -79,7 +79,7 @@
     <Hotel>
         <Name>Quality Inn</Name>
         <Phone>480-555-8765</Phone>
-        <Address NearestAirport="Sky Harbor">
+        <Address NearstAirport="Sky Harbor">
             <Number>123</Number>
             <Street>E 1st St</Street>
             <City>Tempe</City>
@@ -91,7 +91,7 @@
     <Hotel>
         <Name>Carlos Inn</Name>
         <Phone>480-555-4321</Phone>
-        <Address NearestAirport="Sky Harbor">
+        <Address NearstAirport="Sky Harbor">
             <Number>123</Number>
             <Street>E 1st St</Street>
             <City>Tempe</City>
@@ -104,7 +104,7 @@
         <Name>Super 9</Name>
         <Phone>480-555-6789</Phone>
         <Phone>602-555-6799</Phone>
-        <Address NearestAirport="Sky Harbor">
+        <Address NearstAirport="Sky Harbor">
             <Number>123</Number>
             <Street>E 1st St</Street>
             <City>Tempe</City>
@@ -116,7 +116,7 @@
     <Hotel>
         <Name>Great 10</Name>
         <Phone>480-555-6789</Phone>
-        <Address NearestAirport="Sky Harbor">
+        <Address NearstAirport="Sky Harbor">
             <Number>123</Number>
             <Street>E 1st St</Street>
             <City>Tempe</City>
