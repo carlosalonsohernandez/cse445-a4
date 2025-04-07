@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+    <!-- 1. 'Hotel' instead of 'Hotels' --> 
+
+  <Hotel Rating="5.0">
+    <Name>Hilton</Name>
+    <Phone>480-555-5555</Phone>
+    <Phone>602-555-5555</Phone>
+    <Address> <!-- 2. Missing NearestAirport attribute -->
+        <Number>123</Number>
+        <Street>E 1st St</Street>
+        <City>Tempe</City>
+        <State>AZ</State>
+        <Zip>85500</Zip>
+    </Address>
+  </Hotel>
+
+    <Hotel>
+        <Name>Marriott</Name>
+        <!-- 3. Missing phone element -->
+        <Address NearestAirport="Scottsdale Airport">
+            <Number>123</Number>
+            <Street>E 1st St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85500</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Hyatt</Name>
+        <Phone>480-555-6789</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>123</Number>
+            <Street>E 1st St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85500</Zip>
+        </Address> 
+    </Hotel>
+
+    <Hotel Rating="4.4">
+        <Name>Holiday Inn</Name>
+        <Name>Duplicate Inn</Name> 
+        <!-- 5. Duplicate Name element -->
+        <Phone>480-555-4321</Phone>
+        <Address NearestAirport="Some Airport">
+            <Number>123</Number>
+            <Street>E 1st St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85500</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="3.5">
+        <Name>Best Western</Name>
+        <Phone>480-555-8765</Phone>
+        <Phone>602-555-1234</Phone>
+        <Address NearestAirport="Fictional Harbor">
+            <Number>123</Number>
+            <Street>E 1st St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85500</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Comfort Inn</Name>
+        <Phone>480-555-5678</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>123</Number>
+            <Street>E 1st St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85500</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Quality Inn</Name>
+        <Phone>480-555-8765</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>123</Number>
+            <Street>E 1st St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85500</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Carlos Inn</Name>
+        <Phone>480-555-4321</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>123</Number>
+            <Street>E 1st St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85500</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Super 9</Name>
+        <Phone>480-555-6789</Phone>
+        <Phone>602-555-6799</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>123</Number>
+            <Street>E 1st St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85500</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Great 10</Name>
+        <Phone>480-555-6789</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>123</Number>
+            <Street>E 1st St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85500</Zip>
+        </Address>
+    </Hotel>
+</Hotel>
